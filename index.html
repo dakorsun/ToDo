@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Open+Sans" rel="stylesheet">
+	<title>ToDo</title>
+
+</head>
+<body>
+	
+	<div id="toDoBlock">
+		<div class="title">Add task</div>
+		<div class="enter">
+			<input id="addInput" type="text" placeholder="Write new task..">
+			<span id="addBtn" class="addBtn">Add</span>
+		</div>
+
+		<main>
+		<div class="title">To Do</div>
+		<ul id="toDo" class="listToDo">
+			<li>
+				<span>Create To Do list</span>
+				<div class="options closed">
+					<div class="button">
+						<img src="img/arrow.png" alt="">
+					</div>
+					<div class="done">Done</div>
+					<div class="edit">Edit</div>
+					<div class="delete">Delete</div>
+				</div>
+			</li>
+			<li>
+				<span>Edit HTML</span>
+				<div class="options closed">
+					<div class="button">
+						<img src="img/arrow.png" alt="">
+					</div>
+					<div class="done">Done</div>
+					<div class="edit">Edit</div>
+					<div class="delete">Delete</div>
+				</div>
+			</li>
+			<li>
+				<span>Edit in CSS</span>
+				<div class="options closed">
+					<div class="button">
+						<img src="img/arrow.png" alt="">
+					</div>
+					<div class="done">Done</div>
+					<div class="edit">Edit</div>
+					<div class="delete">Delete</div>
+				</div>
+			</li>
+			<li>
+				<span>Make it smart with JavaScript</span>
+				<div class="options closed">
+					<div class="button">
+						<img src="img/arrow.png" alt="">
+					</div>
+					<div class="done">Done</div>
+					<div class="edit">Edit</div>
+					<div class="delete">Delete</div>
+				</div>
+			</li>
+		</ul>
+		<div class="title">Done</div>
+		<ul id="done" class="listDone">
+			<li>
+				<span>Learn basics</span>
+				<div class="options closed">
+					<div class="button">
+						<img src="img/arrow.png" alt="">
+					</div>
+					<div class="undone">Undone</div>
+					<div class="edit">Edit</div>
+					<div class="delete">Delete</div>
+				</div>
+			</li>
+		</ul>
+	</main>
+	</div>
+
+	<div class="container">
+		<div class="square"></div>
+	</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
